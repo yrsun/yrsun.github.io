@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi this is Yiru Sun, or you can call me Yuri. I am senior year computer engineering student at University of California, Davis. 
   This blog is all about my senior design, AR/VR Game. As team leader, I am mainly responsible for Game interface, script programming
   and other management tasks. Please feel free to send me email and please dont hesitate to ask my any question.
-baseurl: "/jekyll-simple" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "yrsun.github.io" # the base hostname & protocol for your site
 twitter_username: yrsun 
 github_username:  yrsun 
