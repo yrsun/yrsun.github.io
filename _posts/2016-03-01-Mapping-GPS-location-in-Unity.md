@@ -11,7 +11,7 @@ We plan to mount an arduino, a GPS module and a xbee transmitter on the headset,
 ![GPS module setup](https://lh3.googleusercontent.com/gEHNaGY-qwGzsatAbl9IRRfrOZxXD-uUrteexrynncgLkK_RKAEFEp5ZwWhYiSvxT3mq2TnLbt6E0q1AZ5g3FRfLT82RXICL97AUDr-VqI8OVb66KC9VFdFzq7TliZbOxGo_QcvRQzBsnTrA1HHjS2LwWpIWl5HNYFDhargKLuZDKwxTQ3MrzwLh0j1T40mKc6RoWO3ICjrYzrED0d93zGnekrsmcH9FbPOm7vUPOIqxB4rNxMLiZuXKj6wb_b3clj-OhUx00a6s8P6I0HSmRcHPhWraC171TR6hePGy7PgiEjrfOipKMMUZqQ4p3m2H9BuZWkfRFaIYoQk4Dza8eOiGPgjXvB7KeOYbk1l9un2sMFhgz0znSz6XS51IJR2jaVtqgKI9nqUlTDotMblGfeyW9ccbz8uhl1Vtj_i0CKFddvEOJe-y5TNNrzeDuTNua_ujAyH62fv-hwdp4MMtUsm7wfpCUAlCHeGTHuXBntPRuSfrIiQA_Kn0HAMK3rtZriuEq6EZjnPWU3aoMUHTbTrMMp5cpfy9XQMjgWYLoLkR7MLZHLlAjvJAiGw37D3rGMgqHNoUuRB9IPHu8_BqIL0STG_QVej8OldtpVRlR2EpcBF5ksO7_f4KXab8mwRBokXZen85hq_on4COVVGR_OGxSwy394trsA=w846-h634-no)
 
 ## Hardware Structure
-![Hardware structure](https://lh5.googleusercontent.com/VuT3g2pa_Cf3QbSCCAPlfFce8l3rUeFRXKkAP0FOrTYMrpXvB_VAjCQUq9Am-58dhIHWWyH9RVyx51p_s049=w1546-h917)
+![Hardware structure](https://lh4.googleusercontent.com/p-bBQH3dL11GewlMUi1jn36IpbeY6zIc5LGJFqZSbaiPXHdWC3Te5tyQOSkFiZWUf5FIWEpkXeG6ht0cLbLs=w1920-h1103)
 As shown in the hardware structure, an arduino is used as information hub, connected to GPS, IMU and a XBEE, to send back collected information. As a minimum system, the GPS can be directly connected to the XBEE and in this case the XBEE is acting as wireless cable. However IMU(BNO055) has I2C interface and it requires extra configuration to be working, we placed an Arduino here.
 
 ### Q:Does Arduino have so many serial ports?
